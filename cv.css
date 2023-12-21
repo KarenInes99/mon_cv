@@ -1,0 +1,106 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    font-family:Arial;
+    font-size:15px;
+}
+.container{
+    position:relative;
+    border:1px solid;
+    display:flex;
+    width:70%;
+}
+.profil{
+    position:absolute;
+    top:30px;
+    left:20%;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+}
+.left{
+    width:30%;
+    background-color:#2c3e50;
+    padding-top:11rem;
+}
+.num{
+    display:flex;
+}
+.num, .atouts, .perf{
+    padding-left:15px;
+}
+.lab{
+    font-weight:bold;
+    font-size:25px;
+    color:#ecf0f1;
+    padding-left:10px;
+}
+.atouts li, .perf li{
+    list-style-type:none;
+    padding-left:15px;
+    padding-bottom:10px;
+    font-size:15px;
+}
+.coord{
+    padding-top:2rem;
+}
+h3, li{
+    color:#b2bec3;
+    font-size:12.5px;
+}
+h3{
+    padding-left:8px;
+}
+.annee{
+    width:80px;
+    font-weight:bold;
+}
+.icone{
+    width:25px;
+}
+.right{
+    width:70%;
+    background-color:#f0f0f0;
+    padding-top:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.name{
+    font-size:1.3rem;
+    font-weight:bold;
+    color:#2c3e50;
+    margin-bottom:3px;
+    text-align:center;
+}
+.work{
+    text-align:center;
+    font-weight:bold;
+    font-size:19px;
+}
+.presentation{
+    text-align:justify;
+    /* color:#2c3e50; */
+    font-size:15px;
+}
+.monprofil{
+    padding-top:1.7rem;
+}
+.label{
+    font-weight:bold;
+    font-size:25px;
+    margin-bottom:0;
+    color:#2c3e50;
+}
+.niveau{
+    width:100px;
+    padding-left:5px;
+}
+.titre{
+    border-top:solid #2c3e50;
+    border-bottom:solid #2c3e50;
+    margin-left:7rem;
+    margin-top:1.9rem;
+}
